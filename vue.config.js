@@ -1,4 +1,4 @@
-const VUE_APP_DEV_SERVER_PROXY_TARGET = process.env.VUE_APP_DEV_SERVER_PROXY_TARGET ? process.env.VUE_APP_DEV_SERVER_PROXY_TARGET : 'http://localhost:9504';
+﻿const VUE_APP_DEV_SERVER_PROXY_TARGET = process.env.VUE_APP_DEV_SERVER_PROXY_TARGET ? process.env.VUE_APP_DEV_SERVER_PROXY_TARGET : 'http://localhost:9504';
 
 module.exports={
   devServer: {
@@ -17,3 +17,6 @@ module.exports={
   },
   lintOnSave:false,
 };
+
+
+//添加备注
